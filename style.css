@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  background-color: #42275a;
+  color: white;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.score h2{
+    font-size: 30px;
+}
+.score p{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.options,
+.winner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match{
+    padding-top: 80px;
+}
+button{
+
+    padding: 8px;
+    width: 100px;
+    margin-top: 200px;
+}
